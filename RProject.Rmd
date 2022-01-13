@@ -1,0 +1,62 @@
+---
+title: "ICY0006 Probability And Statistics - Exercise 1"
+output:
+  html_document:
+    df_print: paged
+---
+
+This is Exercise 1 from ICY0006 course - Probability And Statistics
+
+Exercise is as follows:\
+You have randomized 2 groups of patients, A and B, who take two drugs (A\
+and B, respectively). From each patient you measure blood sugar (smaller\
+values are better). Please analyse these data and plot the results. Explain\
+your analytic choices. What do you conclude from you analysis?\
+A) Is drug A reliably different from drug B? explain you answer.\
+B) In the absence of other evidence, (i) is it more likely that A is better\
+than B, or (ii) is it more likely that B is better, or (iii) does evidence point\
+to A and B being equal, or (iv) is it true that we cannot say either way,\
+based on available evidence.\
+C) If you needed to take either drug A or B, which one would you choose\
+(or would you just toss a coin to make the choice).\
+D) Suppose that your sample size would have been 50, instead of 5. Would\
+you have plotted the data differently? if yes, how? Would you have analysed\
+the data differently in any way? if yes, explain how and why.\
+E) Suppose that your sample size would have been 500, instead of 5. Would\
+you have plotted the data differently? if yes, how? Would you have analysed\
+the data differently in any way? if yes, explain how and why.
+
+
+| Group | Value |
+|:---:|:---:|
+|A | 0.2273642|
+|A | 0.1700281|
+|A | 0.3781713|
+|A | 0.6344903|
+|A | 0.9484044|
+|B | 1.7099361|
+|B | 5.7520838|
+|B | 0.3314107|
+|B | 0.9291784|
+|B | 2.8027043|
+
+And we initialize the values for further use:
+
+```{r}
+A <- c(0.2273642,0.1700281,0.3781713,0.6344903,0.9484044)
+B <- c(1.7099361, 5.7520838, 0.3314107, 0.9291784, 2.8027043)
+```
+
+
+# A) Is drug A reliably different from drug B? explain you answer.
+
+
+```{r}
+
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
